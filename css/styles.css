@@ -1,0 +1,29 @@
+/*
+    Feuille de style personnalisée pour l'interface backoffice.
+    On applique un style "brique" sombre à la barre latérale.
+*/
+
+/* Sidebar en "mode brique" sombre */
+#sidebar {
+    width: 250px; /* largeur fixe pour la barre */
+    min-height: 100vh; /* hauteur de toute la fenêtre */
+    background-color: #2c2c2c; /* fond sombre */
+    box-shadow: inset -4px 0 8px rgba(0,0,0,0.5); /* effet de relief */
+}
+
+#sidebar .nav-link {
+    margin-bottom: 0.5rem;
+    background-color: #3a3a3a; /* blocs foncés rappelant des briques */
+    border-radius: 4px;
+}
+
+#sidebar .nav-link:hover {
+    background-color: #505050;
+}
+
+/* Contenu principal */
+main {
+    color: #f8f9fa; /* texte clair sur fond sombre */
+    background-color: #343a40; /* fond sombre pour le contenu */
+    min-height: 100vh;
+}
