@@ -1,1 +1,12 @@
-toto
+# Demo Backoffice Bootstrap
+
+Ce projet illustre une interface backoffice simple utilisant Bootstrap 5.
+Il comporte une barre latérale sombre sur la gauche et un contenu principal.
+
+## Structure
+
+- `index.html` : page principale commentée.
+- `css/styles.css` : style personnalisé pour le thème sombre et la barre latérale en mode brique.
+- `js/scripts.js` : espace pour les scripts JS du backoffice.
+
+Pour tester, ouvrez simplement `index.html` dans votre navigateur.
